@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-JNJ89FA</Machine>
+    <WindowsUser>dell</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>503ec43c-8c40-4c8e-acf6-389ba237a059</PackageIdentityName>
+    <PackageIdentityPublisher>CN=dell</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\dll_Shared\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\dll_Shared.exe">
+      <PackagePath>dll_Shared.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\dll_Shared.pdb">
+      <PackagePath>dll_Shared.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\dll_Shared.winmd">
+      <PackagePath>dll_Shared.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_aruco310.dll">
+      <PackagePath>opencv_aruco310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_aruco310.pdb">
+      <PackagePath>opencv_aruco310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_aruco310.winmd">
+      <PackagePath>opencv_aruco310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bgsegm310.dll">
+      <PackagePath>opencv_bgsegm310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bgsegm310.pdb">
+      <PackagePath>opencv_bgsegm310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bgsegm310.winmd">
+      <PackagePath>opencv_bgsegm310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bioinspired310.dll">
+      <PackagePath>opencv_bioinspired310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bioinspired310.pdb">
+      <PackagePath>opencv_bioinspired310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_bioinspired310.winmd">
+      <PackagePath>opencv_bioinspired310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_calib3d310.dll">
+      <PackagePath>opencv_calib3d310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_calib3d310.pdb">
+      <PackagePath>opencv_calib3d310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_calib3d310.winmd">
+      <PackagePath>opencv_calib3d310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ccalib310.dll">
+      <PackagePath>opencv_ccalib310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ccalib310.pdb">
+      <PackagePath>opencv_ccalib310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ccalib310.winmd">
+      <PackagePath>opencv_ccalib310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_core310.dll">
+      <PackagePath>opencv_core310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_core310.pdb">
+      <PackagePath>opencv_core310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_core310.winmd">
+      <PackagePath>opencv_core310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_datasets310.dll">
+      <PackagePath>opencv_datasets310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_datasets310.pdb">
+      <PackagePath>opencv_datasets310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_datasets310.winmd">
+      <PackagePath>opencv_datasets310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_dpm310.dll">
+      <PackagePath>opencv_dpm310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_dpm310.pdb">
+      <PackagePath>opencv_dpm310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_dpm310.winmd">
+      <PackagePath>opencv_dpm310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_face310.dll">
+      <PackagePath>opencv_face310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_face310.pdb">
+      <PackagePath>opencv_face310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_face310.winmd">
+      <PackagePath>opencv_face310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_features2d310.dll">
+      <PackagePath>opencv_features2d310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_features2d310.pdb">
+      <PackagePath>opencv_features2d310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_features2d310.winmd">
+      <PackagePath>opencv_features2d310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_flann310.dll">
+      <PackagePath>opencv_flann310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_flann310.pdb">
+      <PackagePath>opencv_flann310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_flann310.winmd">
+      <PackagePath>opencv_flann310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_fuzzy310.dll">
+      <PackagePath>opencv_fuzzy310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_fuzzy310.pdb">
+      <PackagePath>opencv_fuzzy310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_fuzzy310.winmd">
+      <PackagePath>opencv_fuzzy310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_highgui310.dll">
+      <PackagePath>opencv_highgui310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_highgui310.pdb">
+      <PackagePath>opencv_highgui310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_highgui310.winmd">
+      <PackagePath>opencv_highgui310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgcodecs310.dll">
+      <PackagePath>opencv_imgcodecs310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgcodecs310.pdb">
+      <PackagePath>opencv_imgcodecs310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgcodecs310.winmd">
+      <PackagePath>opencv_imgcodecs310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgproc310.dll">
+      <PackagePath>opencv_imgproc310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgproc310.pdb">
+      <PackagePath>opencv_imgproc310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_imgproc310.winmd">
+      <PackagePath>opencv_imgproc310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_line_descriptor310.dll">
+      <PackagePath>opencv_line_descriptor310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_line_descriptor310.pdb">
+      <PackagePath>opencv_line_descriptor310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_line_descriptor310.winmd">
+      <PackagePath>opencv_line_descriptor310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ml310.dll">
+      <PackagePath>opencv_ml310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ml310.pdb">
+      <PackagePath>opencv_ml310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ml310.winmd">
+      <PackagePath>opencv_ml310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_objdetect310.dll">
+      <PackagePath>opencv_objdetect310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_objdetect310.pdb">
+      <PackagePath>opencv_objdetect310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_objdetect310.winmd">
+      <PackagePath>opencv_objdetect310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_optflow310.dll">
+      <PackagePath>opencv_optflow310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_optflow310.pdb">
+      <PackagePath>opencv_optflow310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_optflow310.winmd">
+      <PackagePath>opencv_optflow310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_phase_unwrapping310.dll">
+      <PackagePath>opencv_phase_unwrapping310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_phase_unwrapping310.pdb">
+      <PackagePath>opencv_phase_unwrapping310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_phase_unwrapping310.winmd">
+      <PackagePath>opencv_phase_unwrapping310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_photo310.dll">
+      <PackagePath>opencv_photo310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_photo310.pdb">
+      <PackagePath>opencv_photo310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_photo310.winmd">
+      <PackagePath>opencv_photo310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_plot310.dll">
+      <PackagePath>opencv_plot310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_plot310.pdb">
+      <PackagePath>opencv_plot310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_plot310.winmd">
+      <PackagePath>opencv_plot310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_reg310.dll">
+      <PackagePath>opencv_reg310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_reg310.pdb">
+      <PackagePath>opencv_reg310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_reg310.winmd">
+      <PackagePath>opencv_reg310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_rgbd310.dll">
+      <PackagePath>opencv_rgbd310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_rgbd310.pdb">
+      <PackagePath>opencv_rgbd310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_rgbd310.winmd">
+      <PackagePath>opencv_rgbd310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_saliency310.dll">
+      <PackagePath>opencv_saliency310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_saliency310.pdb">
+      <PackagePath>opencv_saliency310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_saliency310.winmd">
+      <PackagePath>opencv_saliency310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_shape310.dll">
+      <PackagePath>opencv_shape310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_shape310.pdb">
+      <PackagePath>opencv_shape310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_shape310.winmd">
+      <PackagePath>opencv_shape310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stereo310.dll">
+      <PackagePath>opencv_stereo310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stereo310.pdb">
+      <PackagePath>opencv_stereo310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stereo310.winmd">
+      <PackagePath>opencv_stereo310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stitching310.dll">
+      <PackagePath>opencv_stitching310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stitching310.pdb">
+      <PackagePath>opencv_stitching310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_stitching310.winmd">
+      <PackagePath>opencv_stitching310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_structured_light310.dll">
+      <PackagePath>opencv_structured_light310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_structured_light310.pdb">
+      <PackagePath>opencv_structured_light310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_structured_light310.winmd">
+      <PackagePath>opencv_structured_light310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_surface_matching310.dll">
+      <PackagePath>opencv_surface_matching310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_surface_matching310.pdb">
+      <PackagePath>opencv_surface_matching310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_surface_matching310.winmd">
+      <PackagePath>opencv_surface_matching310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_text310.dll">
+      <PackagePath>opencv_text310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_text310.pdb">
+      <PackagePath>opencv_text310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_text310.winmd">
+      <PackagePath>opencv_text310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_tracking310.dll">
+      <PackagePath>opencv_tracking310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_tracking310.pdb">
+      <PackagePath>opencv_tracking310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_tracking310.winmd">
+      <PackagePath>opencv_tracking310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_video310.dll">
+      <PackagePath>opencv_video310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_video310.pdb">
+      <PackagePath>opencv_video310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_video310.winmd">
+      <PackagePath>opencv_video310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videoio310.dll">
+      <PackagePath>opencv_videoio310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videoio310.pdb">
+      <PackagePath>opencv_videoio310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videoio310.winmd">
+      <PackagePath>opencv_videoio310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videostab310.dll">
+      <PackagePath>opencv_videostab310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videostab310.pdb">
+      <PackagePath>opencv_videostab310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_videostab310.winmd">
+      <PackagePath>opencv_videostab310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xfeatures2d310.dll">
+      <PackagePath>opencv_xfeatures2d310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xfeatures2d310.pdb">
+      <PackagePath>opencv_xfeatures2d310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xfeatures2d310.winmd">
+      <PackagePath>opencv_xfeatures2d310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ximgproc310.dll">
+      <PackagePath>opencv_ximgproc310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ximgproc310.pdb">
+      <PackagePath>opencv_ximgproc310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_ximgproc310.winmd">
+      <PackagePath>opencv_ximgproc310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xobjdetect310.dll">
+      <PackagePath>opencv_xobjdetect310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xobjdetect310.pdb">
+      <PackagePath>opencv_xobjdetect310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xobjdetect310.winmd">
+      <PackagePath>opencv_xobjdetect310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xphoto310.dll">
+      <PackagePath>opencv_xphoto310.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xphoto310.pdb">
+      <PackagePath>opencv_xphoto310.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\opencv_xphoto310.winmd">
+      <PackagePath>opencv_xphoto310.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dell\Documents\UTaTane\HoloPark2\dllMake\HoloPark\Assets\Plugins\UWP\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
