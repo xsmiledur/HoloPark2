@@ -161,10 +161,10 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="CppPlugin.h" />
     <ClInclude Include="include\opencv2\aruco.hpp" />
     <ClInclude Include="include\opencv2\aruco\charuco.hpp" />
     <ClInclude Include="include\opencv2\aruco\dictionary.hpp" />
@@ -520,10 +520,10 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.cpp" />
     <ClCompile Include="App.xaml.cpp">
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="CppPlugin.cpp" />
     <ClCompile Include="MainPage.xaml.cpp">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </ClCompile>

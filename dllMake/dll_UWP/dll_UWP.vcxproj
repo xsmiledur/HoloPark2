@@ -173,7 +173,7 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.h" />
+    <ClInclude Include="..\dll_Shared\CppPlugin.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
     </ClInclude>
@@ -532,7 +532,7 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.cpp" />
+    <ClCompile Include="..\dll_Shared\CppPlugin.cpp" />
     <ClCompile Include="App.xaml.cpp">
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>

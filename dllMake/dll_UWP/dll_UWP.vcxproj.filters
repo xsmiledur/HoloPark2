@@ -147,12 +147,11 @@
   <ItemGroup>
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.cpp" />
+    <ClCompile Include="..\dll_Shared\CppPlugin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
-    <ClInclude Include="..\..\..\..\Visual Studio 2017\Projects\sampledll2\sampledll2\CppPlugin.h" />
     <ClInclude Include="include\opencv\ml.h">
       <Filter>include\opencv</Filter>
     </ClInclude>
@@ -1131,6 +1130,7 @@
     <ClInclude Include="include\opencv2\aruco.hpp">
       <Filter>include\opencv2</Filter>
     </ClInclude>
+    <ClInclude Include="..\dll_Shared\CppPlugin.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
