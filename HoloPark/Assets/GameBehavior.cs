@@ -21,7 +21,7 @@ namespace HoloToolkit.Unity {
         // Use this for initialization
         void Start()
         {
-
+            return;
             // test
             Debug.Log(Sum(new byte[] { 1, 2, 3, 4, 5, 6 }, 3, 2));
 
@@ -48,6 +48,7 @@ namespace HoloToolkit.Unity {
         // Update is called once per frame
         void Update()
         {
+            return;
             //Debug.Log(frame);
             if (frame > 100)
             {
